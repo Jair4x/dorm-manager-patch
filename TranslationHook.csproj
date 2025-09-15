@@ -14,40 +14,52 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+      <HintPath>dependencies\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
-    <Reference Include="BepInEx">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\core\BepInEx.Core.dll</HintPath>
+    <Reference Include="BepInEx.Core">
+      <HintPath>dependencies\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="BepInEx.Unity.IL2CPP">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <HintPath>dependencies\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+      <HintPath>dependencies\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>dependencies\Il2Cppmscorlib.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Localization">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\Unity.Localization.dll</HintPath>
+      <HintPath>dependencies\Unity.Localization.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Unity.ResourceManager">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\Unity.ResourceManager.dll</HintPath>
+      <HintPath>dependencies\Unity.ResourceManager.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>dependencies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\UnityEngine.dll</HintPath>
+      <HintPath>dependencies\UnityEngine.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>dependencies\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\UnityEngine.LocalizationModule.dll</HintPath>
+      <HintPath>dependencies\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:\SteamLibrary\steamapps\common\Peeping Dorm Manager\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+      <HintPath>dependencies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 
